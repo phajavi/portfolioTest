@@ -1,0 +1,34 @@
+.card {
+    transition: transform 1s;
+}
+
+.card:hover {
+    animation-name: borderIdentify;
+    box-shadow: 0 0 10px green;
+    transform: scale(1.1);
+}
+
+;
+.navbar-nav a {
+    font-size: larger;
+}
+
+.nav-item:hover {
+    font-size: larger;
+    animation-name: moveUp;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+
+@keyframes moveUp {
+    from {
+        top: 0;
+        font-size: larger;
+    }
+    to {
+        button: 10px;
+        font-size: xx-large;
+    }
+}
+
+;
